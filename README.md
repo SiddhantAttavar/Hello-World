@@ -7,3 +7,4 @@ A collection of Hello World programs in different languages. A Hello World progr
  - Java: `java HelloWorld.java`
  - C: `gcc HelloWorld.c -o a && ./a`
  - Javascript: `node HelloWorld.js`
+ - C# `mcs -out:a HelloWorld.cs && ./a`
