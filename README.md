@@ -9,3 +9,4 @@ A collection of Hello World programs in different languages. A Hello World progr
  - Javascript: `node HelloWorld.js`
  - C# `mcs -out:a HelloWorld.cs && ./a`
  - Rust: `rustc HelloWorld.rs -o a && ./a`
+ - Bash: `bash HelloWorld.sh`
