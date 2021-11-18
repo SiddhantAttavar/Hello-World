@@ -3,5 +3,6 @@ A collection of Hello World programs in different languages. A Hello World progr
 
 ## Languages <a name = "languages"> </a>
  - Python: `python HelloWorld.py`
- - C++: `g++ HelloWorld.cpp -o a && .\a`
+ - C++: `g++ HelloWorld.cpp -o a && ./a`
  - Java: `java HelloWorld.java`
+ - C: `gcc HelloWorld.c -o a && ./a`
