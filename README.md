@@ -11,3 +11,4 @@ A collection of Hello World programs in different languages. A Hello World progr
  - Rust: `rustc HelloWorld.rs -o a && ./a`
  - Bash: `bash HelloWorld.sh`
  - Powershell: `pwsh HelloWorld.ps1`
+ - PHP: `php HelloWorld.php`
