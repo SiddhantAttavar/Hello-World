@@ -12,3 +12,4 @@ A collection of Hello World programs in different languages. A Hello World progr
  - Bash: `bash HelloWorld.sh`
  - Powershell: `pwsh HelloWorld.ps1`
  - PHP: `php HelloWorld.php`
+ - Kotlin: `kotlinc HelloWorld.kt -include-runtime -d a.jar && java -jar a.jar`
