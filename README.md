@@ -10,3 +10,4 @@ A collection of Hello World programs in different languages. A Hello World progr
  - C# `mcs -out:a HelloWorld.cs && ./a`
  - Rust: `rustc HelloWorld.rs -o a && ./a`
  - Bash: `bash HelloWorld.sh`
+ - Powershell: `pwsh HelloWorld.ps1`
