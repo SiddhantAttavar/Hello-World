@@ -8,3 +8,4 @@ A collection of Hello World programs in different languages. A Hello World progr
  - C: `gcc HelloWorld.c -o a && ./a`
  - Javascript: `node HelloWorld.js`
  - C# `mcs -out:a HelloWorld.cs && ./a`
+ - Rust: `rustc HelloWorld.rs -o a && ./a`
