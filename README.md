@@ -13,3 +13,4 @@ A collection of Hello World programs in different languages. A Hello World progr
  - Powershell: `pwsh HelloWorld.ps1`
  - PHP: `php HelloWorld.php`
  - Kotlin: `kotlinc HelloWorld.kt -include-runtime -d a.jar && java -jar a.jar`
+ - Go: `go run HelloWorld.go`
