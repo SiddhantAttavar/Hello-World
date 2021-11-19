@@ -1,12 +1,12 @@
 # Hello-World
-A collection of Hello World programs in different languages. A Hello World program is a program that prints the string "Hello World" to the screen.
+A collection of Hello World programs in different languages. A Hello World program is a program that prints the string "Hello World" to the screen. There are currently 23 Hello World programs.
 
 ## Instructions to run: <a name = "instructions-to-run"></a>
  - (Recommended): Create an Ubuntu VM
  - Clone the repository: `git clone https://github.com/SiddhantAttavar/Hello-World.git`
  - cd into the repository: `cd Hello-World`
  - Run the setup script: `chmod +x setup.sh && bash setup.sh`
- - Run a program using one of the commands below or run all using the `run.sh` script: `chmod +x run-all.sh && bash run-all.sh`
+ - Run a program using one of the commands below or run all using the `run-all.sh` script: `chmod +x run-all.sh && bash run-all.sh`
 
 ## Languages: <a name = "languages"></a>
  - Python: `python3 HelloWorld.py`

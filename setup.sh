@@ -6,6 +6,7 @@ sudo apt upgrade -y
 sudo apt-get install -y dirmngr gnupg wget apt-transport-https software-properties-common zip unzip
 wget -q https://packages.microsoft.com/config/ubuntu/20.04/packages-microsoft-prod.deb
 sudo dpkg -i packages-microsoft-prod.deb
+sudo apt update
 
 # Python
 sudo apt install -y python3.8
