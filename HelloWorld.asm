@@ -6,7 +6,7 @@ _start:
   mov rax, 1        ; write(
   mov rdi, 1        ;   STDOUT_FILENO,
   mov rsi, msg      ;   "Hello, world!\n",
-  mov rdx, msglen   ;   sizeof("Hello world\n")
+  mov rdx, msglen   ;   sizeof("Hello World\n")
   syscall           ; );
 
   mov rax, 60       ; exit(
@@ -14,5 +14,5 @@ _start:
   syscall           ; );
 
 section .rodata
-  msg: db "Hello world", 10
+  msg: db "Hello World", 10
   msglen: equ $ - msg

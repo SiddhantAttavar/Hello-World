@@ -21,7 +21,7 @@ lua HelloWorld.lua
 Rscript HelloWorld.r
 perl HelloWorld.pl
 scala HelloWorld.scala
-vbnc HelloWorld.vb -o a.exe && mono a.exe
+vbc -quiet HelloWorld.vb -o a.exe && mono a.exe
 nasm -f elf64 HelloWorld.asm -o a.o && ld a.o -o a && ./a
 sqlite3 < HelloWorld.sql
 
