@@ -21,3 +21,4 @@ A collection of Hello World programs in different languages. A Hello World progr
  - Lua: `lua HelloWorld.lua`
  - R: `Rscript HelloWorld.R`
  - Perl: `perl HelloWorld.pl`
+ - Scala: `scala HelloWorld.scala`
