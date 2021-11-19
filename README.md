@@ -17,3 +17,4 @@ A collection of Hello World programs in different languages. A Hello World progr
  - Swift: `swift HelloWorld.swift`
  - Dart: `dart HelloWorld.dart`
  - Objective-C: `gcc HelloWorld.m -I /GNUstep/System/Library/Headers -L /GNUstep/System/Library/Libraries -lobjc -lgnustep-base -fconstant-string-class=NSConstantString -isystem /usr/include/GNUstep -o a && ./a`
+ - Ruby: `ruby HelloWorld.rb`
