@@ -5,8 +5,8 @@ A collection of Hello World programs in different languages. A Hello World progr
  - (Recommended): Create an Ubuntu VM
  - Clone the repository: `git clone https://github.com/SiddhantAttavar/Hello-World.git`
  - cd into the repository: `cd Hello-World`
- - Run the setup script: `chmod +x setup.sh && bash setup.sh`
- - Run a program using one of the commands below or run all using the `run-all.sh` script: `chmod +x run-all.sh && bash run-all.sh`
+ - Run the setup script: `bash setup.sh`
+ - Run a program using one of the commands below or run all using the `run-all.sh` script: `bash run-all.sh`
 
 ## Languages: <a name = "languages"></a>
  - Python: `python3 HelloWorld.py`

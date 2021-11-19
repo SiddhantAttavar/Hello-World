@@ -42,6 +42,7 @@ sudo apt install -y php
 curl -s https://get.sdkman.io | bash
 source ~/.sdkman/bin/sdkman-init.sh
 sdk install kotlin
+sudo apt update
 
 # Go
 sudo apt install -y golang-go
@@ -97,6 +98,10 @@ sudo apt install -y nasm
 sudo apt install -y sqlite3
 
 # General
+sudo apt update
+sudo apt upgrade -y
+sudo apt autoremove -y
+source ~/.sdkman/bin/sdkman-init.sh
 source ~/.profile
 source ~/.bashrc
 rm packages-microsoft-prod.deb
