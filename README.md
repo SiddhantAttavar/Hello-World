@@ -20,3 +20,4 @@ A collection of Hello World programs in different languages. A Hello World progr
  - Ruby: `ruby HelloWorld.rb`
  - Lua: `lua HelloWorld.lua`
  - R: `Rscript HelloWorld.R`
+ - Perl: `perl HelloWorld.pl`
