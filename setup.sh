@@ -31,7 +31,7 @@ sudo apt install -y rustc
 sudo apt install -y bash
 
 # Powershell
-sudo apt-get install -y powershell
+sudo apt install -y powershell
 
 # PHP
 sudo apt install -y php
