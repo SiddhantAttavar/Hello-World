@@ -1,4 +1,5 @@
 #!/bin/bash
+
 # General
 sudo apt update
 sudo apt upgrade -y
@@ -43,12 +44,6 @@ sdk install kotlin
 
 # Go
 sudo apt install -y golang-go
-# wget https://dl.google.com/go/go1.17.3.linux-amd64.tar.gz
-# sudo rm -rf /usr/local/go
-# sudo tar -C /usr/local -xzf go1.17.3.linux-amd64.tar.gz
-# rm go1.17.3.linux-amd64.tar.gz
-# echo "export PATH=$PATH:/usr/local/go/bin" >> ~/.profile
-# source ~/.profil
 
 # Swift
 sudo apt install -y binutils git gnupg2 libc6-dev libcurl4 libedit2 libgcc-9-dev libpython2.7 libsqlite3-0 libstdc++-9-dev libxml2 libz3-dev pkg-config tzdata zlib1g-dev
@@ -93,8 +88,6 @@ rm scala-2.13.4.deb
 
 # Visual Basic
 sudo apt install -y mono-vbnc
-# sudo apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv-keys 3FA7E0328081BFF6A14DA29AA6A19B38D3D831EF
-# echo "deb https://download.mono-project.com/repo/ubuntu stable-focal main" | sudo tee /etc/apt/sources.list.d/mono-official-stable.list
 
 # Assembly
 sudo apt install -y nasm
@@ -103,4 +96,6 @@ sudo apt install -y nasm
 sudo apt install -y sqlite3
 
 # General
+source ~/.profile
+source ~/.bashrc
 rm packages-microsoft-prod.deb
