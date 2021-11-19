@@ -23,3 +23,4 @@ A collection of Hello World programs in different languages. A Hello World progr
  - Perl: `perl HelloWorld.pl`
  - Scala: `scala HelloWorld.scala`
  - Visual Basic: `vbnc HelloWorld.vb -o a.exe && mono a.exe`
+ - Assembly: `nasm -f elf64 HelloWorld.asm -o a.o && ld a.o -o a && ./a`
