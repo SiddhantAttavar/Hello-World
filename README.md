@@ -1,8 +1,15 @@
 # Hello-World
 A collection of Hello World programs in different languages. A Hello World program is a program that prints the string "Hello World" to the screen.
 
-## Languages <a name = "languages"> </a>
- - Python: `python HelloWorld.py`
+## Instructions to run: <a name = "instructions-to-run"></a>
+ - (Recommended): Create an Ubuntu VM
+ - Clone the repository: `git clone https://github.com/SiddhantAttavar/Hello-World.git`
+ - cd into the repository: `cd Hello-World`
+ - Run the setup script: `chmod +x setup.sh && ./setup.sh`
+ - Run a program using one of the commands below or run all using the `run.sh` script: `chmod +x run.sh && ./run.sh`
+
+## Languages: <a name = "languages"></a>
+ - Python: `python3 HelloWorld.py`
  - C++: `g++ HelloWorld.cpp -o a && ./a`
  - Java: `java HelloWorld.java`
  - C: `gcc HelloWorld.c -o a && ./a`
@@ -24,4 +31,4 @@ A collection of Hello World programs in different languages. A Hello World progr
  - Scala: `scala HelloWorld.scala`
  - Visual Basic: `vbnc HelloWorld.vb -o a.exe && mono a.exe`
  - Assembly: `nasm -f elf64 HelloWorld.asm -o a.o && ld a.o -o a && ./a`
- - SQL: `sqlite3 < HelloWorld.sqlite3`
+ - SQL: `sqlite3 < HelloWorld.sql`
