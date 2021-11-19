@@ -1,3 +1,4 @@
+#!/bin/bash
 # General
 sudo apt update
 sudo apt upgrade -y
