@@ -29,7 +29,7 @@ A collection of Hello World programs in different languages. A Hello World progr
  - R: `Rscript HelloWorld.R`
  - Perl: `perl HelloWorld.pl`
  - Scala: `scala HelloWorld.scala`
- - Visual Basic: `vbnc -quiet HelloWorld.vb -out:a.exe && mono a.exe`
+ - Visual Basic: `vbnc HelloWorld.vb -out:a.exe >> /dev/null && mono a.exe`
  - Assembly: `nasm -f elf64 HelloWorld.asm -o a.o && ld a.o -o a && ./a`
  - SQL: `sqlite3 < HelloWorld.sql`
  - HTML: `lynx -dump HelloWorld.html`

@@ -21,7 +21,7 @@ lua HelloWorld.lua
 Rscript HelloWorld.r
 perl HelloWorld.pl
 scala HelloWorld.scala
-vbnc -quiet HelloWorld.vb -out:a.exe && mono a.exe
+vbnc HelloWorld.vb -out:a.exe >> /dev/null && mono a.exe
 nasm -f elf64 HelloWorld.asm -o a.o && ld a.o -o a && ./a
 sqlite3 < HelloWorld.sql
 lynx -dump HelloWorld.html
@@ -32,3 +32,4 @@ ghc HelloWorld.hs -o a >> /dev/null && ./a
 
 # Remove temporary files
 rm a*
+rm HelloWorld.hi HelloWorld.o
