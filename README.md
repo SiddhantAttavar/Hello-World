@@ -34,3 +34,4 @@ A collection of Hello World programs in different languages. A Hello World progr
  - SQL: `sqlite3 < HelloWorld.sql`
  - HTML: `lynx -dump HelloWorld.html`
  - Typescript: `tsc HelloWorld.ts --outFile a.js && node a.js`
+ - Lisp: `clisp HelloWorld.lisp`

@@ -26,6 +26,7 @@ nasm -f elf64 HelloWorld.asm -o a.o && ld a.o -o a && ./a
 sqlite3 < HelloWorld.sql
 lynx -dump HelloWorld.html
 tsc HelloWorld.ts --outFile a.js && node a.js
+clisp HelloWorld.lisp
 
 # Remove temporary files
 rm a*

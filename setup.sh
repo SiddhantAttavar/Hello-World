@@ -104,6 +104,9 @@ sudo apt install -y lynx
 sudo apt install -y npm
 sudo npm install -g typescript
 
+# Lisp
+sudo apt install -y clisp
+
 # General
 sudo apt update
 sudo apt upgrade -y
