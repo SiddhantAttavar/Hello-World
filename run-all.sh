@@ -27,6 +27,7 @@ sqlite3 < HelloWorld.sql
 lynx -dump HelloWorld.html
 tsc HelloWorld.ts --outFile a.js && node a.js
 clisp HelloWorld.lisp
+nvim --headless +so HelloWorld.vim
 
 # Remove temporary files
 rm a*

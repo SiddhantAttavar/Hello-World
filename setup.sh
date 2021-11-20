@@ -107,6 +107,11 @@ sudo npm install -g typescript
 # Lisp
 sudo apt install -y clisp
 
+# Vimscript
+sudo add-apt-repository ppa:neovim-ppa/unstable
+sudo apt update
+sudo apt install -y neovim
+
 # General
 sudo apt update
 sudo apt upgrade -y
