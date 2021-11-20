@@ -112,6 +112,9 @@ sudo add-apt-repository ppa:neovim-ppa/unstable
 sudo apt update
 sudo apt install -y neovim
 
+# Haskell
+sudo apt install -y haskell-platform
+
 # General
 sudo apt update
 sudo apt upgrade -y

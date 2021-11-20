@@ -28,6 +28,7 @@ lynx -dump HelloWorld.html
 tsc HelloWorld.ts --outFile a.js && node a.js
 clisp HelloWorld.lisp
 nvim --headless +so HelloWorld.vim
+ghc HelloWorld.hs -o a >> /dev/null && ./a
 
 # Remove temporary files
 rm a*
