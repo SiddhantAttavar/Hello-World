@@ -100,6 +100,10 @@ sudo apt install -y sqlite3
 # HTML
 sudo apt install -y lynx
 
+# TypeScript
+sudo apt install -y npm
+sudo npm install -g typescript
+
 # General
 sudo apt update
 sudo apt upgrade -y
