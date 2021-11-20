@@ -97,6 +97,9 @@ sudo apt install -y nasm
 # SQL
 sudo apt install -y sqlite3
 
+# HTML
+sudo apt install -y lynx
+
 # General
 sudo apt update
 sudo apt upgrade -y
