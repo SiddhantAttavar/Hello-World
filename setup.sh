@@ -118,6 +118,11 @@ sudo apt install -y haskell-platform
 # Julia
 sudo apt install -y julia
 
+# Vala
+sudo add-apt-repository ppa:vala-team
+sudo apt update
+sudo apt install -y valac
+
 # General
 sudo apt update
 sudo apt upgrade -y

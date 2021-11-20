@@ -30,6 +30,7 @@ clisp HelloWorld.lisp
 nvim --headless +so HelloWorld.vim
 ghc HelloWorld.hs -o a >> /dev/null && ./a
 julia HelloWorld.jl
+vala HelloWorld.vala
 
 # Remove temporary files
 rm a*
