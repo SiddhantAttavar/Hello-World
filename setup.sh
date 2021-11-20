@@ -115,6 +115,9 @@ sudo apt install -y neovim
 # Haskell
 sudo apt install -y haskell-platform
 
+# Julia
+sudo apt install -y julia
+
 # General
 sudo apt update
 sudo apt upgrade -y

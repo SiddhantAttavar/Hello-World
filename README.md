@@ -37,3 +37,4 @@ A collection of Hello World programs in different languages. A Hello World progr
  - Lisp: `clisp HelloWorld.lisp`
  - Vimscript: `nvim --headless +so HelloWorld.vim`
  - Haskell: `ghc HelloWorld.hs -o a >> /dev/null && ./a`
+ - Julia: `julia HelloWorld.jl`
