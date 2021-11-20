@@ -31,6 +31,7 @@ nvim --headless +so HelloWorld.vim
 ghc HelloWorld.hs -o a >> /dev/null && ./a
 julia HelloWorld.jl
 vala HelloWorld.vala
+fpc HelloWrld.pas -oa >> /dev/null 2>&1 && ./a
 
 # Remove temporary files
 rm a*

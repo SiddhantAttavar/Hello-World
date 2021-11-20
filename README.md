@@ -39,3 +39,4 @@ A collection of Hello World programs in different languages. A Hello World progr
  - Haskell: `ghc HelloWorld.hs -o a >> /dev/null && ./a`
  - Julia: `julia HelloWorld.jl`
  - Vala: `vala HelloWorld.vala`
+ - Pascal: `fpc HelloWorld.pas -oa >> /dev/null 2>&1 && ./a`

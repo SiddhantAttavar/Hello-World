@@ -123,6 +123,9 @@ sudo add-apt-repository ppa:vala-team
 sudo apt update
 sudo apt install -y valac
 
+# Pascal
+sudo apt install -y fpc
+
 # General
 sudo apt update
 sudo apt upgrade -y
