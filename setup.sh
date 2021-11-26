@@ -47,6 +47,9 @@ sudo apt update
 # Go
 sudo apt install -y golang-go
 
+# Ada
+sudo apt install -y gnat-10
+
 # Swift
 sudo apt install -y binutils git gnupg2 libc6-dev libcurl4 libedit2 libgcc-9-dev libpython2.7 libsqlite3-0 libstdc++-9-dev libxml2 libz3-dev pkg-config tzdata zlib1g-dev
 wget https://swift.org/builds/swift-5.3.3-release/ubuntu2004/swift-5.3.3-RELEASE/swift-5.3.3-RELEASE-ubuntu20.04.tar.gz

@@ -32,6 +32,7 @@ ghc HelloWorld.hs -o a >> /dev/null && ./a
 julia HelloWorld.jl
 vala HelloWorld.vala
 fpc HelloWrld.pas -oa >> /dev/null 2>&1 && ./a
+gnatmake HelloWorld.adb >> /dev/null -o a && ./a
 
 # Remove temporary files
 rm a*
