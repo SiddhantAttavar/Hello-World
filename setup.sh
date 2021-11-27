@@ -129,6 +129,9 @@ sudo apt install -y valac
 # Pascal
 sudo apt install -y fpc
 
+# Fortran
+sudo apt install -y gfortran
+
 # General
 sudo apt update
 sudo apt upgrade -y

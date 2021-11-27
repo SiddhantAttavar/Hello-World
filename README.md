@@ -41,3 +41,4 @@ A collection of Hello World programs in different languages. A Hello World progr
  - Vala: `vala HelloWorld.vala`
  - Pascal: `fpc HelloWorld.pas -oa >> /dev/null 2>&1 && ./a`
  - Ada :`gnatmake HelloWorld.adb >> /dev/null -o a && ./a`
+ - Fortran: `gfortran HelloWorld.f90 -o a && ./a`
