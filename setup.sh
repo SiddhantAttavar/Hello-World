@@ -132,6 +132,9 @@ sudo apt install -y fpc
 # Fortran
 sudo apt install -y gfortran
 
+# Cobol
+sudo apt install -y open-cobol
+
 # General
 sudo apt update
 sudo apt upgrade -y

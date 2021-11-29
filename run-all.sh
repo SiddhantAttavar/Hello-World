@@ -34,6 +34,7 @@ vala HelloWorld.vala
 fpc HelloWrld.pas -oa >> /dev/null 2>&1 && ./a
 gnatmake HelloWorld.adb >> /dev/null -o a && ./a
 gfortran HelloWorld.f90 -o a && ./a
+cobc -free -x -o a helloworld.cbl
 
 # Remove temporary files
 rm a*
