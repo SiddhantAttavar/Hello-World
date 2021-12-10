@@ -1,5 +1,5 @@
 # Hello-World
-A collection of Hello World programs in different languages. A Hello World program is a program that prints the string "Hello World" to the screen. There are currently 35 Hello World programs.
+A collection of Hello World programs in different languages. A Hello World program is a program that prints the string "Hello World" to the screen. There are currently 36 Hello World programs.
 
 ## Instructions to run: <a name = "instructions-to-run"></a>
  - (Recommended): Create an Ubuntu VM
